@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(32, 32, 97);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+
+#tour
+{
+    position: relative;
+    left:800px;
+    color:white;
+}
+.SL
+{
+    border-right:2px;
+    border-color: #fff;
+    border-style: solid;
+    margin:0; 
+    text-align:center;
+    color:#fff; 
+    font-size:16px; 
+    font-weight:normal;   
+    padding-bottom:10px; 
+    border-bottom:1px #fff double; 
+    width:5%; 
+    height:50px
+}
+
+/* Style the content */
+.content 
+{
+    padding: 10px;
+    background-image: url('beach2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.Dest
+{
+    border-right:2px;
+    border-color: #fff;
+    border-style: solid; 
+    margin:0; 
+    text-align:center; 
+    color:#fff;  
+    padding-bottom:10px; 
+    border-bottom:1px #fff double; 
+    font-size:16px; 
+    font-weight:normal;
+    width:30%
+}
+
+.Amount
+{
+    margin:0; 
+    text-align:center; 
+    border-right:2px;
+    border-color: #fff;
+    border-style:  solid; 
+    padding-bottom:10px;
+    color:#fff;  
+    border-bottom:1px #fff double; 
+    font-size:16px; 
+    font-weight:normal;
+    width:20%;
+}
+
+.button {
+    background-color: rgb(32, 32, 97);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: underline;
+    position: relative;
+    left:600px;
+  }
+
+  .home {
+    background-color: #4CAF50; /* Green */
+    border:none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
