@@ -1,0 +1,52 @@
+.topnav {
+    z-index: 1;
+    overflow: hidden;
+	width: 100%;
+	top: 0;
+	color: white;
+	background-color: rgb(32, 32, 97);
+	text-align: center;
+  }
+  
+
+  .gallery
+  {
+      background-color: rosybrown;
+  }
+
+  .image
+  {
+      position:relative;
+      left: 280px;
+      margin: 50px;
+      width: 300px;
+      height: 240px;
+  }
+  .image2
+  {
+      position:relative;
+      left: 450px;
+      margin: 50px;
+      width: 300px;
+      height: 240px;
+  }
+  footer{
+	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+.buton{
+	background-color: green;
+    border:none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+button{
+	margin: 0px 10px;
+}
