@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+.topNav{
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	color: white;
+	background-color: rgb(32, 32, 97);
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  align-content: center;
+  padding: 5px 5px 5px 5px;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
+th,td{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 5px 50px 5px 50px;
+}
+.center{
+	display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.buton{
+	background-color: green;
+    border:none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+button{
+	margin: 0px 10px;
+}
+html{
+	background-image: url('images/beach.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer{
+	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
